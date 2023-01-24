@@ -116,7 +116,7 @@ public class Driver {
 	 */
 	public static FirefoxOptions getFirefoxOptions() {
 		 FirefoxBinary firefoxBinary =  new FirefoxBinary();
-         //firefoxBinary.addCommandLineOptions("--headless");
+         firefoxBinary.addCommandLineOptions("--headless");
          FirefoxOptions firefoxOptions =  new FirefoxOptions();
          firefoxOptions.setBinary(firefoxBinary);
 
