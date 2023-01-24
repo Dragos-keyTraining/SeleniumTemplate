@@ -103,7 +103,7 @@ public class Driver {
 		chromeOption.addArguments("--disable-dev-shm-usage");
 		chromeOption.addArguments("--no-sandbox");
 		chromeOption.addArguments("--disable-extensions");
-		//chromeOption.addArguments("--headless");
+		chromeOption.addArguments("--headless");
 		chromeOption.addArguments("--window-size=1580, 1280");
 		
 		return chromeOption;
@@ -116,7 +116,7 @@ public class Driver {
 	 */
 	public static FirefoxOptions getFirefoxOptions() {
 		 FirefoxBinary firefoxBinary =  new FirefoxBinary();
-      //   firefoxBinary.addCommandLineOptions("--headless");
+         firefoxBinary.addCommandLineOptions("--headless");
          FirefoxOptions firefoxOptions =  new FirefoxOptions();
          firefoxOptions.setBinary(firefoxBinary);
 
