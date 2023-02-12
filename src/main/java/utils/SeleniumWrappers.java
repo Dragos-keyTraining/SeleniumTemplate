@@ -239,6 +239,5 @@ public class SeleniumWrappers {
 			Log.error(e.getMessage());
 			throw new TestException("called method failed on getElementText() on locator  : "+ locator.toString());		}
 	}
-	//comment for jenkins
 
 }
