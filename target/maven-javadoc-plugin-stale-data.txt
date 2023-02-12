@@ -1,0 +1,144 @@
+@options
+@packages
+-classpath
+'/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-java/4.4.0/selenium-java-4.4.0.jar:/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-api/4.4.0/selenium-api-4.4.0.jar:/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.4.0/selenium-chrome-driver-4.4.0.jar:/Users/dragostanta/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/dragostanta/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/dragostanta/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/dragostanta/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/dragostanta/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/dragostanta/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/dragostanta/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/dragostanta/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/dragostanta/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.4.0/selenium-chromium-driver-4.4.0.jar:/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-json/4.4.0/selenium-json-4.4.0.jar:/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v102/4.4.0/selenium-devtools-v102-4.4.0.jar:/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v103/4.4.0/selenium-devtools-v103-4.4.0.jar:/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v104/4.4.0/selenium-devtools-v104-4.4.0.jar:/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.4.0/selenium-devtools-v85-4.4.0.jar:/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.4.0/selenium-edge-driver-4.4.0.jar:/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.4.0/selenium-firefox-driver-4.4.0.jar:/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.4.0/selenium-ie-driver-4.4.0.jar:/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.4.0/selenium-opera-driver-4.4.0.jar:/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.4.0/selenium-remote-driver-4.4.0.jar:/Users/dragostanta/.m2/repository/io/netty/netty-buffer/4.1.78.Final/netty-buffer-4.1.78.Final.jar:/Users/dragostanta/.m2/repository/io/netty/netty-codec-http/4.1.78.Final/netty-codec-http-4.1.78.Final.jar:/Users/dragostanta/.m2/repository/io/netty/netty-codec/4.1.78.Final/netty-codec-4.1.78.Final.jar:/Users/dragostanta/.m2/repository/io/netty/netty-handler/4.1.78.Final/netty-handler-4.1.78.Final.jar:/Users/dragostanta/.m2/repository/io/netty/netty-common/4.1.78.Final/netty-common-4.1.78.Final.jar:/Users/dragostanta/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.78.Final/netty-transport-classes-epoll-4.1.78.Final.jar:/Users/dragostanta/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.78.Final/netty-transport-classes-kqueue-4.1.78.Final.jar:/Users/dragostanta/.m2/repository/io/netty/netty-transport-native-epoll/4.1.78.Final/netty-transport-native-epoll-4.1.78.Final.jar:/Users/dragostanta/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.78.Final/netty-transport-native-kqueue-4.1.78.Final.jar:/Users/dragostanta/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.78.Final/netty-transport-native-unix-common-4.1.78.Final.jar:/Users/dragostanta/.m2/repository/io/netty/netty-transport/4.1.78.Final/netty-transport-4.1.78.Final.jar:/Users/dragostanta/.m2/repository/io/netty/netty-resolver/4.1.78.Final/netty-resolver-4.1.78.Final.jar:/Users/dragostanta/.m2/repository/io/opentelemetry/opentelemetry-api/1.16.0/opentelemetry-api-1.16.0.jar:/Users/dragostanta/.m2/repository/io/opentelemetry/opentelemetry-context/1.16.0/opentelemetry-context-1.16.0.jar:/Users/dragostanta/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.16.0/opentelemetry-exporter-logging-1.16.0.jar:/Users/dragostanta/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.16.0/opentelemetry-sdk-metrics-1.16.0.jar:/Users/dragostanta/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.16.0-alpha/opentelemetry-sdk-logs-1.16.0-alpha.jar:/Users/dragostanta/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.16.0/opentelemetry-sdk-common-1.16.0.jar:/Users/dragostanta/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.16.0/opentelemetry-sdk-extension-autoconfigure-spi-1.16.0.jar:/Users/dragostanta/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.16.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.16.0-alpha.jar:/Users/dragostanta/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.16.0/opentelemetry-sdk-trace-1.16.0.jar:/Users/dragostanta/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.16.0/opentelemetry-sdk-1.16.0.jar:/Users/dragostanta/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.16.0-alpha/opentelemetry-semconv-1.16.0-alpha.jar:/Users/dragostanta/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/dragostanta/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/Users/dragostanta/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/dragostanta/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/dragostanta/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/dragostanta/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/dragostanta/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/dragostanta/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/dragostanta/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/dragostanta/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/dragostanta/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/dragostanta/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-http/4.4.0/selenium-http-4.4.0.jar:/Users/dragostanta/.m2/repository/dev/failsafe/failsafe/3.2.4/failsafe-3.2.4.jar:/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.4.0/selenium-safari-driver-4.4.0.jar:/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-support/4.4.0/selenium-support-4.4.0.jar:/Users/dragostanta/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/dragostanta/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dragostanta/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/dragostanta/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/dragostanta/.m2/repository/io/github/bonigarcia/webdrivermanager/5.2.3/webdrivermanager-5.2.3.jar:/Users/dragostanta/.m2/repository/com/google/code/gson/gson/2.9.1/gson-2.9.1.jar:/Users/dragostanta/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/dragostanta/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/dragostanta/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/dragostanta/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/dragostanta/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/dragostanta/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/dragostanta/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/dragostanta/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/dragostanta/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/dragostanta/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/dragostanta/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/dragostanta/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/dragostanta/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/dragostanta/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/dragostanta/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/dragostanta/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/dragostanta/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/dragostanta/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/dragostanta/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/dragostanta/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/dragostanta/.m2/repository/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar:/Users/dragostanta/.m2/repository/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/target/site/apidocs'
+-docencoding
+'UTF-8'
+-Xdoclint:none
+-doctitle
+'TemplateSelenium 0.0.1-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'TemplateSelenium 0.0.1-SNAPSHOT API'
+tests
+utils
+pages
+/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-java/4.4.0/selenium-java-4.4.0.jar = 1660727901446
+/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-api/4.4.0/selenium-api-4.4.0.jar = 1660727901536
+/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.4.0/selenium-chrome-driver-4.4.0.jar = 1660727901426
+/Users/dragostanta/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar = 1658847894114
+/Users/dragostanta/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar = 1658847894114
+/Users/dragostanta/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar = 1658847894199
+/Users/dragostanta/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar = 1658847894354
+/Users/dragostanta/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar = 1658847894223
+/Users/dragostanta/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar = 1658847894276
+/Users/dragostanta/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar = 1658847894355
+/Users/dragostanta/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar = 1658847894357
+/Users/dragostanta/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar = 1658847894360
+/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.4.0/selenium-chromium-driver-4.4.0.jar = 1660727901453
+/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-json/4.4.0/selenium-json-4.4.0.jar = 1660727901495
+/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v102/4.4.0/selenium-devtools-v102-4.4.0.jar = 1660727901876
+/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v103/4.4.0/selenium-devtools-v103-4.4.0.jar = 1660727901861
+/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v104/4.4.0/selenium-devtools-v104-4.4.0.jar = 1660727901898
+/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.4.0/selenium-devtools-v85-4.4.0.jar = 1660727901888
+/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.4.0/selenium-edge-driver-4.4.0.jar = 1660727901830
+/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.4.0/selenium-firefox-driver-4.4.0.jar = 1660727901954
+/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.4.0/selenium-ie-driver-4.4.0.jar = 1660727901977
+/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.4.0/selenium-opera-driver-4.4.0.jar = 1660727901982
+/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.4.0/selenium-remote-driver-4.4.0.jar = 1660727902003
+/Users/dragostanta/.m2/repository/io/netty/netty-buffer/4.1.78.Final/netty-buffer-4.1.78.Final.jar = 1658847894883
+/Users/dragostanta/.m2/repository/io/netty/netty-codec-http/4.1.78.Final/netty-codec-http-4.1.78.Final.jar = 1658847894888
+/Users/dragostanta/.m2/repository/io/netty/netty-codec/4.1.78.Final/netty-codec-4.1.78.Final.jar = 1658847894931
+/Users/dragostanta/.m2/repository/io/netty/netty-handler/4.1.78.Final/netty-handler-4.1.78.Final.jar = 1658847894935
+/Users/dragostanta/.m2/repository/io/netty/netty-common/4.1.78.Final/netty-common-4.1.78.Final.jar = 1658847894970
+/Users/dragostanta/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.78.Final/netty-transport-classes-epoll-4.1.78.Final.jar = 1658847894994
+/Users/dragostanta/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.78.Final/netty-transport-classes-kqueue-4.1.78.Final.jar = 1658847894998
+/Users/dragostanta/.m2/repository/io/netty/netty-transport-native-epoll/4.1.78.Final/netty-transport-native-epoll-4.1.78.Final.jar = 1658847895042
+/Users/dragostanta/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.78.Final/netty-transport-native-kqueue-4.1.78.Final.jar = 1658847895042
+/Users/dragostanta/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.78.Final/netty-transport-native-unix-common-4.1.78.Final.jar = 1658847895100
+/Users/dragostanta/.m2/repository/io/netty/netty-transport/4.1.78.Final/netty-transport-4.1.78.Final.jar = 1658847895144
+/Users/dragostanta/.m2/repository/io/netty/netty-resolver/4.1.78.Final/netty-resolver-4.1.78.Final.jar = 1658847895137
+/Users/dragostanta/.m2/repository/io/opentelemetry/opentelemetry-api/1.16.0/opentelemetry-api-1.16.0.jar = 1660727902007
+/Users/dragostanta/.m2/repository/io/opentelemetry/opentelemetry-context/1.16.0/opentelemetry-context-1.16.0.jar = 1660727902072
+/Users/dragostanta/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.16.0/opentelemetry-exporter-logging-1.16.0.jar = 1660727902088
+/Users/dragostanta/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.16.0/opentelemetry-sdk-metrics-1.16.0.jar = 1660727902098
+/Users/dragostanta/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.16.0-alpha/opentelemetry-sdk-logs-1.16.0-alpha.jar = 1660727902121
+/Users/dragostanta/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.16.0/opentelemetry-sdk-common-1.16.0.jar = 1660727902124
+/Users/dragostanta/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.16.0/opentelemetry-sdk-extension-autoconfigure-spi-1.16.0.jar = 1660727902168
+/Users/dragostanta/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.16.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.16.0-alpha.jar = 1660727902183
+/Users/dragostanta/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.16.0/opentelemetry-sdk-trace-1.16.0.jar = 1660727902202
+/Users/dragostanta/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.16.0/opentelemetry-sdk-1.16.0.jar = 1660727902207
+/Users/dragostanta/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.16.0-alpha/opentelemetry-semconv-1.16.0-alpha.jar = 1660727902232
+/Users/dragostanta/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar = 1658847895407
+/Users/dragostanta/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar = 1658847895578
+/Users/dragostanta/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar = 1658847895578
+/Users/dragostanta/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar = 1658847895593
+/Users/dragostanta/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar = 1658847895580
+/Users/dragostanta/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar = 1658847895584
+/Users/dragostanta/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar = 1658847895661
+/Users/dragostanta/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar = 1658847895661
+/Users/dragostanta/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar = 1658847895690
+/Users/dragostanta/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar = 1658847895696
+/Users/dragostanta/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar = 1658847895696
+/Users/dragostanta/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar = 1658847895825
+/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-http/4.4.0/selenium-http-4.4.0.jar = 1660727902277
+/Users/dragostanta/.m2/repository/dev/failsafe/failsafe/3.2.4/failsafe-3.2.4.jar = 1658847895840
+/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.4.0/selenium-safari-driver-4.4.0.jar = 1660727902283
+/Users/dragostanta/.m2/repository/org/seleniumhq/selenium/selenium-support/4.4.0/selenium-support-4.4.0.jar = 1660727902317
+/Users/dragostanta/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar = 1658847895969
+/Users/dragostanta/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar = 1658847895982
+/Users/dragostanta/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar = 1658847895982
+/Users/dragostanta/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar = 1658847895982
+/Users/dragostanta/.m2/repository/io/github/bonigarcia/webdrivermanager/5.2.3/webdrivermanager-5.2.3.jar = 1660728227981
+/Users/dragostanta/.m2/repository/com/google/code/gson/gson/2.9.1/gson-2.9.1.jar = 1660728227221
+/Users/dragostanta/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar = 1660728227122
+/Users/dragostanta/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar = 1660728227622
+/Users/dragostanta/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar = 1660728227725
+/Users/dragostanta/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar = 1660728227659
+/Users/dragostanta/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar = 1660728227923
+/Users/dragostanta/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar = 1660728229073
+/Users/dragostanta/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar = 1660728229665
+/Users/dragostanta/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar = 1660728228628
+/Users/dragostanta/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar = 1660728229540
+/Users/dragostanta/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar = 1660728231854
+/Users/dragostanta/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar = 1660728229062
+/Users/dragostanta/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar = 1660728229518
+/Users/dragostanta/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar = 1660728229507
+/Users/dragostanta/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar = 1660728231568
+/Users/dragostanta/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar = 1660728229955
+/Users/dragostanta/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar = 1660728230685
+/Users/dragostanta/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar = 1660728230937
+/Users/dragostanta/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar = 1660728231234
+/Users/dragostanta/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar = 1660728231246
+/Users/dragostanta/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar = 1660728231525
+/Users/dragostanta/.m2/repository/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar = 1665767857693
+/Users/dragostanta/.m2/repository/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar = 1665767838560
+/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/src/main/java/.DS_Store = 1667198316812
+/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/src/main/java = 1667198316812
+/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/target/site/apidocs/tag-search-index.js = 1676227738251
+/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/target/site/apidocs/overview-tree.html = 1676227738239
+/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/target/site/apidocs/module-search-index.js = 1676227738250
+/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/target/site/apidocs/index.html = 1676227738240
+/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/target/site/apidocs/package-search-index.js = 1676227738250
+/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/target/site/apidocs/jquery-ui.overrides.css = 1676227738269
+/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/target/site/apidocs/index-all.html = 1676227738259
+/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/target/site/apidocs/allpackages-index.html = 1676227738247
+/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/target/site/apidocs/member-search-index.js = 1676227738251
+/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/target/site/apidocs/copy.svg = 1676227738266
+/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/target/site/apidocs/script.js = 1676227738266
+/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/target/site/apidocs/stylesheet.css = 1676227738265
+/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/target/site/apidocs/search-page.js = 1676227738267
+/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/target/site/apidocs/overview-summary.html = 1676227738260
+/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/target/site/apidocs/help-doc.html = 1676227738264
+/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/target/site/apidocs/element-list = 1676227738204
+/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/target/site/apidocs/search.html = 1676227738260
+/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/target/site/apidocs/allclasses-index.html = 1676227738246
+/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/target/site/apidocs/type-search-index.js = 1676227738250
+/Users/dragostanta/Dropbox/CodeTemplates/TemplateSelenium/target/site/apidocs/search.js = 1676227738267
